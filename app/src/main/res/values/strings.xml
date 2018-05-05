@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UdacityPracticalQuizOne</string>
+    <string name="btn_submit">NEXT</string>
+    <string name="user_name">UserName</string>
+    <string name="email">Email</string>
+    <string name="description">Write about yourself</string>
+</resources>

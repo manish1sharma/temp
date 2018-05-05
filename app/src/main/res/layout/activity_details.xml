@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar2">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bkgd_details"
+        android:orientation="vertical"
+        tools:context=".DetailsActivity">
+
+
+    <TextView
+        android:layout_marginTop="168dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center_vertical"
+        android:text="Default username"
+        android:id="@+id/tv_username"
+        android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_person_outline_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <TextView
+        android:id="@+id/tv_email"
+            android:text="Default Email"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:text="Default description"
+            android:drawableLeft="@drawable/ic_description_black_24dp"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_description_black_24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>
